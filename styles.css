@@ -1,0 +1,36 @@
+/* Grid Container */
+.grid {
+  display: grid;
+}
+.grid-template-columns {
+  grid-template-columns: 200px 250px;
+  grid-template-rows:    200px 200px;
+  grid-gap: 2px;
+}
+.subgrid {
+  display: grid;
+  grid-template-columns: 50px 75px;
+  grid-template-rows:    50px 75px;
+  grid-gap: 10px;
+}
+.subgrid-2 {
+  display: grid;
+  grid-template-columns: 75px 55px;
+  grid-gap: 10px;
+}
+.subgrid-3 {
+  display: grid;
+  grid-template-columns: 75px 65px 55px;
+  grid-gap: 10px;
+}
+/* Estilos Gerais */
+.item {
+  margin: 5px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.grid {
+  max-width: 450px;
+  border: 1px solid #ccc;
+}
